@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BBC4E49-3F0E-40CC-BC07-42FE6C80577C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{BCC06754-AE2E-40E5-83C3-9747862EEF60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCSharp.Extensions.FormWithJsonBody", "src\JustCSharp.Extensions.FormWithJsonBody\JustCSharp.Extensions.FormWithJsonBody.csproj", "{7BC2B79F-DA8D-4963-B3C4-86D3AFD51FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCSharp.Extensions.FormWithJsonBody.Examples", "examples\JustCSharp.Extensions.FormWithJsonBody.Examples\JustCSharp.Extensions.FormWithJsonBody.Examples.csproj", "{951ED564-90BD-49F7-8BDA-521AC3A736FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCSharp.Extensions.FormWithJsonBody.NewtonsoftJson", "src\JustCSharp.Extensions.FormWithJsonBody.NewtonsoftJson\JustCSharp.Extensions.FormWithJsonBody.NewtonsoftJson.csproj", "{3A6CBD0D-696E-472D-9EF6-1FBCF22DD87E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCSharp.Extensions.FormWithJsonBody.Swashbuckle", "src\JustCSharp.Extensions.FormWithJsonBody.Swashbuckle\JustCSharp.Extensions.FormWithJsonBody.Swashbuckle.csproj", "{F70FB47C-59A9-4DED-9372-FE6CE2522FC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BC2B79F-DA8D-4963-B3C4-86D3AFD51FAD} = {4BBC4E49-3F0E-40CC-BC07-42FE6C80577C}
+		{951ED564-90BD-49F7-8BDA-521AC3A736FC} = {BCC06754-AE2E-40E5-83C3-9747862EEF60}
+		{3A6CBD0D-696E-472D-9EF6-1FBCF22DD87E} = {4BBC4E49-3F0E-40CC-BC07-42FE6C80577C}
+		{F70FB47C-59A9-4DED-9372-FE6CE2522FC1} = {4BBC4E49-3F0E-40CC-BC07-42FE6C80577C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC2B79F-DA8D-4963-B3C4-86D3AFD51FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC2B79F-DA8D-4963-B3C4-86D3AFD51FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC2B79F-DA8D-4963-B3C4-86D3AFD51FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC2B79F-DA8D-4963-B3C4-86D3AFD51FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951ED564-90BD-49F7-8BDA-521AC3A736FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951ED564-90BD-49F7-8BDA-521AC3A736FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951ED564-90BD-49F7-8BDA-521AC3A736FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951ED564-90BD-49F7-8BDA-521AC3A736FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6CBD0D-696E-472D-9EF6-1FBCF22DD87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6CBD0D-696E-472D-9EF6-1FBCF22DD87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6CBD0D-696E-472D-9EF6-1FBCF22DD87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6CBD0D-696E-472D-9EF6-1FBCF22DD87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70FB47C-59A9-4DED-9372-FE6CE2522FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70FB47C-59A9-4DED-9372-FE6CE2522FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70FB47C-59A9-4DED-9372-FE6CE2522FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70FB47C-59A9-4DED-9372-FE6CE2522FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
