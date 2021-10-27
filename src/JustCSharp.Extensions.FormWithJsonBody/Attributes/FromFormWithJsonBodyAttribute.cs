@@ -1,8 +1,8 @@
 using System;
-using JustCSharp.FormWithJsonBody.ModelBindings;
+using JustCSharp.Extensions.FormWithJsonBody.ModelBindings;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace JustCSharp.FormWithJsonBody.Attributes
+namespace JustCSharp.Extensions.FormWithJsonBody.Attributes
 {
     [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class FromFormWithJsonBodyAttribute: Attribute, IBindingSourceMetadata, IModelNameProvider

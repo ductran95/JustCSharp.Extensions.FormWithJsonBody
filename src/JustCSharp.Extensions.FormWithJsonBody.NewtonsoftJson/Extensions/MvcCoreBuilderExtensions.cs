@@ -1,11 +1,13 @@
 using System;
-using JustCSharp.FormWithJsonBody.Formatters;
-using JustCSharp.FormWithJsonBody.ModelBindings;
-using JustCSharp.FormWithJsonBody.NewtonsoftJson.Formatters;
+using JustCSharp.Extensions.FormWithJsonBody.Extensions;
+using JustCSharp.Extensions.FormWithJsonBody.Formatters;
+using JustCSharp.Extensions.FormWithJsonBody.ModelBindings;
+using JustCSharp.Extensions.FormWithJsonBody.NewtonsoftJson.Formatters;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace JustCSharp.Extensions.FormWithJsonBody.NewtonsoftJson.Extensions
 {
     public static class MvcCoreBuilderExtensions
     {

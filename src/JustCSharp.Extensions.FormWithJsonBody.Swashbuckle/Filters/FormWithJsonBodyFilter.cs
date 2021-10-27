@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using JustCSharp.FormWithJsonBody.ModelBindings;
+using JustCSharp.Extensions.FormWithJsonBody.ModelBindings;
 using Microsoft.AspNetCore.Http;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace JustCSharp.FormWithJsonBody.Swashbuckle.Filters
+namespace JustCSharp.Extensions.FormWithJsonBody.Swashbuckle.Filters
 {
     public class FormWithJsonBodyFilter: IDocumentFilter
     {

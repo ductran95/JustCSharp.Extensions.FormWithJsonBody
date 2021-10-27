@@ -5,15 +5,17 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using JustCSharp.FormWithJsonBody.Formatters;
+using JustCSharp.Extensions.FormWithJsonBody.Formatters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
+#if (NETSTANDARD2_1)
+using Microsoft.AspNetCore.Http.Internal;
+#endif
 
-namespace JustCSharp.FormWithJsonBody.ModelBindings
+namespace JustCSharp.Extensions.FormWithJsonBody.ModelBindings
 {
     public class FormWithJsonBodyModelBinder: IModelBinder
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace JustCSharp.FormWithJsonBody.ModelBindings
+namespace JustCSharp.Extensions.FormWithJsonBody.ModelBindings
 {
     public class CustomBindingSource: BindingSource
     {

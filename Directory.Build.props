@@ -2,10 +2,10 @@
   <PropertyGroup>
     <Authors>Duc Tran</Authors>
     <Copyright>Copyright Duc Tran</Copyright>
-    <PackageReleaseNotes>For full release notes see https://github.com/ductran95/JustCSharp/main/releasenotes.md</PackageReleaseNotes>
+    <PackageReleaseNotes>For full release notes see https://github.com/ductran95/JustCSharp.Extensions.FormWithJsonBody/main/releasenotes.md</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/ductran95/JustCSharp</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ductran95/JustCSharp.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ductran95/JustCSharp.Extensions.FormWithJsonBody</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ductran95/JustCSharp.Extensions.FormWithJsonBody.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <SignAssembly>false</SignAssembly>
 

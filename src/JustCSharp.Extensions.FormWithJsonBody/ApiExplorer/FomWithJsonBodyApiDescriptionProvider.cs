@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
-using JustCSharp.FormWithJsonBody.ModelBindings;
+using JustCSharp.Extensions.FormWithJsonBody.ModelBindings;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Options;
 
-namespace JustCSharp.FormWithJsonBody.ApiExplorer
+namespace JustCSharp.Extensions.FormWithJsonBody.ApiExplorer
 {
     public class FomWithJsonBodyApiDescriptionProvider: IApiDescriptionProvider
     {

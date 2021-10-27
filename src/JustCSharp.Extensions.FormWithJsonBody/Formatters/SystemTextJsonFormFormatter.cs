@@ -2,13 +2,11 @@ using System;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-#if (!NETSTANDARD2_0)
-    using Microsoft.Extensions.Options;
-#endif
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
-namespace JustCSharp.FormWithJsonBody.Formatters
+namespace JustCSharp.Extensions.FormWithJsonBody.Formatters
 {
     public class SystemTextJsonFormFormatter : JsonFormFormatter
     {
@@ -16,12 +14,12 @@ namespace JustCSharp.FormWithJsonBody.Formatters
         public JsonSerializerOptions SerializerOptions { get; }
 
         public SystemTextJsonFormFormatter(
-#if (!NETSTANDARD2_0)
+#if (!NETSTANDARD2_1)
             IOptions<JsonOptions> jsonOptions,
 #endif
             ILogger<SystemTextJsonFormFormatter> logger)
         {
-#if (!NETSTANDARD2_0)
+#if (!NETSTANDARD2_1)
             SerializerOptions = jsonOptions.Value.JsonSerializerOptions;
 #else 
             SerializerOptions = new JsonSerializerOptions();

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace JustCSharp.FormWithJsonBody.Formatters
+namespace JustCSharp.Extensions.FormWithJsonBody.Formatters
 {
     public class FormFormatterContext
     {

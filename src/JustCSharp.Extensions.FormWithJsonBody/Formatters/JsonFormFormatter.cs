@@ -1,9 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Formatters;
-using Microsoft.Extensions.Logging;
 
-namespace JustCSharp.FormWithJsonBody.Formatters
+namespace JustCSharp.Extensions.FormWithJsonBody.Formatters
 {
     public abstract class JsonFormFormatter: IFormFormatter, IInputFormatterExceptionPolicy
     {

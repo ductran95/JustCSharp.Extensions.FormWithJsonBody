@@ -1,12 +1,12 @@
 using System;
-using JustCSharp.FormWithJsonBody.Formatters;
+using JustCSharp.Extensions.FormWithJsonBody.Formatters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace JustCSharp.FormWithJsonBody.ModelBindings
+namespace JustCSharp.Extensions.FormWithJsonBody.ModelBindings
 {
     public class FormWithJsonBodyModelBinderProvider: IModelBinderProvider
     {

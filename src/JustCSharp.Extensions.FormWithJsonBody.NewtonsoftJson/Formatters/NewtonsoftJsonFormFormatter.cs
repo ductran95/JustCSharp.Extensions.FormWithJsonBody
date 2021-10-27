@@ -1,13 +1,13 @@
 using System;
 using System.Threading.Tasks;
-using JustCSharp.FormWithJsonBody.Formatters;
+using JustCSharp.Extensions.FormWithJsonBody.Formatters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
-namespace JustCSharp.FormWithJsonBody.NewtonsoftJson.Formatters
+namespace JustCSharp.Extensions.FormWithJsonBody.NewtonsoftJson.Formatters
 {
     public class NewtonsoftJsonFormFormatter: JsonFormFormatter
     {
@@ -15,12 +15,12 @@ namespace JustCSharp.FormWithJsonBody.NewtonsoftJson.Formatters
         public JsonSerializerSettings JsonSerializerSettings { get; }
         
         public NewtonsoftJsonFormFormatter(
-#if (!NETSTANDARD2_0)
+#if (!NETSTANDARD2_1)
             IOptions<MvcNewtonsoftJsonOptions> jsonOptions,
 #endif
             ILogger<NewtonsoftJsonFormFormatter> logger)
         {
-#if (!NETSTANDARD2_0)
+#if (!NETSTANDARD2_1)
             JsonSerializerSettings = jsonOptions.Value.SerializerSettings;
 #else 
             JsonSerializerSettings = new JsonSerializerSettings();
